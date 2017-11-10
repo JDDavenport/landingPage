@@ -10,9 +10,9 @@
 
     <title>Custome Software Development</title>
 
-    <!-- Bootstrap core CSS <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -35,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a href="/" class="navbar-brand">
-            <img class="header-logo" src="img/logo.png" />
+            <img class="header-logo" src="img/logo.png" style="margin-top: 5px;" />
           </a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,30 +57,23 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
-          </ul>&nbsp
-          <button class="btn btn-primary navbar-btn">Hire a Developer</button>&nbsp
-          <button class="btn btn-primary navbar-btn">Apply as a Developer</button>
-
+          </ul>
         </div>
       </div>
     </nav>
-
 
     <!-- Header with Background Image -->
     <header class="business-header">
       <div class="container">
         <div class="row">
-          <div class="header1 center">
-            <h1 class="text-center text-white ">Hire the best Developers in and around New York City</h1>
+          <div class="col-lg-12 hidden-md-down">
+            <h1 class="display-3 text-center  text-white mt-4">Hire the best Developers in and around New York City</h1>
             
           </div>
-          
-            
+            <a class="align btn btn-primary btn-lg" href="#">Hire a Developer &raquo;</a>
           
         </div>
-
       </div>
-      <div id="a1"><a class="txt-center btn btn-primary btn-lg" id="a1" href="#">Hire a Developer &raquo;</a></div>
     </header>
 
     <!-- Page Content -->
