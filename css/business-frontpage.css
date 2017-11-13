@@ -24,6 +24,10 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+.btn-new{
+  background-color: #f19132;
+  color: white;
+}
 .fixed-top {
   position: fixed;
   top: 0;
@@ -52,7 +56,7 @@ body {
 .center-children {
   text-align: center;
 }
-h1{ padding-top: 60px;
+h1{ padding-top: 120px;
   padding-right: 60px;
   padding-left: 60px;
   font-size: 55px;
