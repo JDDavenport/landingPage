@@ -22,17 +22,34 @@
 
     <!-- Custom styles for this template -->
     <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="css/landingPage-surge-base.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png">
 
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWG3VF');</script>
+<!-- End Google Tag Manager -->
   </head>
 
   <body>
-    
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWG3VF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <!-- Navigation <a class="navbar-brand" href="#">Surge</a><div class="container text-right hidden-sm hidden-xs" id="top_phone_number">
           <a href="tel:1-866-991-6883" class="toll-free-nav float-xs-right" style="font-size: 17px;"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 866.991.6883</a>
+                  
         </div>-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        
+        
+        <div class="offset-sm-8 col-sm-4 hidden-sm hidden-xs" id="top_phone_number">
+                   <a href="tel:1-866-991-6883" class="toll-free-nav" style="font-size: 17px; color: #61cbf3;
+  font-family: 'Montserrat', sans-serif;"><img class="Simg" src="img/phone.png"><span class="" aria-hidden="true"></span> 866.991.6883</a></div>
+    <nav class="size navbar navbar-expand-lg navbar-light bg-light fixed-top" style="z-index: 600;">
       <div class="container">
         <a href="/" class="navbar-brand">
             <img class="header-logo" src="img/logo.png" />
@@ -43,23 +60,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home
-                <span class="sr-only">(current)</span>
+            <li class="nav-item">
+              <a class="nav-link" href="/">HOME
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#who-we-are">About</a>
+              <a class="nav-link" href="/#who-we-are">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#capabilities">Services</a>
+              <a class="nav-link" href="/#capabilities">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#contact">Contact</a>
+              <a class="nav-link" href="/#contact">CONTACT</a>
             </li>
           </ul>&nbsp
-          <a class="btn btn-warning navbar-btn btn-new" href="/request-quote">Hire a Developer</a>&nbsp
-          <a class="btn btn-warning navbar-btn btn-new" href="/careers">Apply as a Developer</a>
+          <a class="btn btn-cta-orange navbar-btn" href="/hire-a-developer">Hire a Developer</a>&nbsp
+          <a class="btn btn-cta-orange navbar-btn" href="/apply-as-a-freelancer">Apply as a Developer</a>
+         
 
         </div>
       </div>
@@ -68,8 +85,8 @@
 
     <!-- Header with Background Image -->
     <header class="business-header">
-      <div class="container">
-        <div class="row">
+      <div class="container" >
+        <div class="row" style="position: relative;">
           <div class="header1 center">
             <h1 class="text-center text-white he2">Hire the best Developers in and around New York City</h1>
             
@@ -80,7 +97,13 @@
         </div>
 
       </div>
-      <div id="a1"><a class="txt-center btn btn-warning btn-lg btn-new" id="a1" href="/request-quote">Hire a Developer &raquo;</a></div>
+      <div id="a1"><a class="txt-center btn-cta-orange btn-lg" id="a1" href="/hire-a-developer">Hire a Developer &raquo;</a></div>
+      <img class="imgS" src="img/Inc5000badge.svg" style="
+                    position: absolute;
+                    width: 175px;
+                    height: 175px;
+                    right: 20%;
+                    top: 380px;">
     </header>
 
     <!-- Page Content -->
@@ -88,7 +111,7 @@
 
       <div class="row">
         <div class="col-sm-8">
-          <h2 class="mt-4">What We Do</h2>
+          <br>
           Surge is an onshore provider of custom web, cloud, mobile, digital,
                   and desktop software development and consulting services to clients in every industry,
                   from hot startups to Fortune 500 companies.<br><br>
@@ -98,19 +121,18 @@
                   process combined with an elite group of North American software professionals.<br><br>
                   Simply put, Surge offers America’s best software engineers, on demand,
                   at rates 30-50% less than the competition.<br><br>
-            <a class="btn btn-warning btn-lg btn-new" href="/request-quote">Hire a Developer &raquo;</a>
+            <a class="btn btn-cta-orange btn-lg" href="/hire-a-developer">Hire a Developer &raquo;</a>
           </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4" >
           <div>
             <br>
             <h5> <bold>Trusted by:</bold></h5>
-            <img class="imgL" src="img/TBlogos.jpg">
+            <img class="imgL" src="img/TBfinal.jpg">
             <style>
             @media screen and (max-width: 520px) {
     .imgL {
-        padding-right: 10%;
-        padding-left: 10%;
+       
     }
 }
           </style>
@@ -135,7 +157,7 @@
               <p class="card-text">Benefits include high quality code, great communication, time zone compatibility, productivity, and self sufficiency (just to name a few).</p>
             </div>
             <div class="card-footer">
-              <a href="/#who-we-are" class="btn btn-warning btn-new">Find Out More!</a>
+              <a href="/#who-we-are" class="btn btn-cta-orange">Find Out More!</a>
             </div>
           </div>
         </div>
@@ -143,11 +165,11 @@
           <div class="card">
             
             <div class="card-body">
-              <h4>30-50% Less Expensive</h4>
-              <p class="card-text">Thanks to our lean operations and onshore remote model you get senior software professionals at a significant discount over our competitors.</p>
+              <h4>On-Demand Expertise</h4>
+              <p class="card-text">Why wait 60-90 days to find a senior software engineer when Surge can provide the best onshore talent in 1-2 weeks.</p>
             </div>
             <div class="card-footer">
-              <a href="/#who-we-are" class="btn btn-warning btn-new">Find Out More!</a>
+              <a href="/#who-we-are" class="btn btn-cta-orange">Find Out More!</a>
             </div>
           </div>
         </div>
@@ -155,12 +177,13 @@
           <div class="card">
            
             <div class="card-body">
-             <h4>Top 2&#37; Of Software Engineers</h4>
-              <p class="card-text">We have incredibly high standards. Our proprietary hiring process means that only 2% pass our rigorous evaluation and live coding process. Hiring great engineers is expensive and time consuming, let Surge do it for you. </p>
+             <h4>White Glove Treatment</h4>
+              <p class="card-text">No automated matching here; we hand-select your team based on skills, industry experience, availability, etc. and then we provide certified project managers to oversee the engagement.</p>
             </div>
             <div class="card-footer">
-              <a href="/#who-we-are" class="btn btn-warning btn-new">Find Out More!</a>
+              <a href="/#who-we-are" class="btn btn-cta-orange">Find Out More!</a>
             </div>
+
           </div>
         </div>
 
@@ -169,7 +192,34 @@
 
     </div>
     <!-- /.container -->
+    <div class="containter" style="background-color: grey;">
+      <div>
+    <h2 class="text-center" style="padding-top: 10px;
+                                    text-shadow: 2px 2px black;
+                                    color: white;" ><bold>Google Reviews</bold></h2>
+ <div id="google-reviews" style='
+                                padding-right: 50px;
+                                padding-left: 50px;'>test</div>
+</div>
+<div class="text-center" style="padding-bottom: 10px;">
+<a href="https://www.google.com/search?client=safari&rls=en&ei=Hj0PWoDHII6KjwOlxJeYCQ&q=surgeforward+google+location&oq=surgeforward+google+location&gs_l=psy-ab.3..33i160k1.9936.12404.0.12780.9.9.0.0.0.0.164.919.6j3.9.0....0...1.1.64.psy-ab..0.9.916...33i21k1.0.iWP2rmAZPQg" class="btn btn-info rbutt">See all Reviews</a>
+</div>
+</div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDdSMnxot3LjLiT8YyemwgYYEqwmK4RNkY&signed_in=true&libraries=places"></script>
+
+<script>
+jQuery(document).ready(function( $ ) {
+   $("#google-reviews").googlePlaces({
+        placeId: 'ChIJcZp50OVskFQRTbru55cyzvU' //Find placeID @: https://developers.google.com/places/place-id
+      , render: ['reviews']
+      , min_rating: 4
+      , max_rows:4
+   });
+});
+</script>
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
@@ -181,7 +231,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   </body>
 
 </html>
