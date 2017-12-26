@@ -16,13 +16,7 @@ body {
 }
 
 .business-header {
-  height: 50vh;
-  min-height: 300px;
-  background: url(../img/NYbg2.jpg)top -6em center no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+
 }
 .btn-cta-orange{
     background: #FFA500;
